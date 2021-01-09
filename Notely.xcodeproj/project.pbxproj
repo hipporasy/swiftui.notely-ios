@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F78EAEB725A98BAE00377CAF /* NotelyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78EAEB625A98BAE00377CAF /* NotelyApp.swift */; };
+		F78EAEB925A98BAE00377CAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78EAEB825A98BAE00377CAF /* ContentView.swift */; };
+		F78EAEBB25A98BAF00377CAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78EAEBA25A98BAF00377CAF /* Assets.xcassets */; };
+		F78EAEBE25A98BAF00377CAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78EAEBD25A98BAF00377CAF /* Preview Assets.xcassets */; };
+		F78EAEC925A98BAF00377CAF /* NotelyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78EAEC825A98BAF00377CAF /* NotelyTests.swift */; };
+		F78EAED425A98BAF00377CAF /* NotelyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78EAED325A98BAF00377CAF /* NotelyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F78EAEC525A98BAF00377CAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F78EAEAB25A98BAE00377CAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F78EAEB225A98BAE00377CAF;
+			remoteInfo = Notely;
+		};
+		F78EAED025A98BAF00377CAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F78EAEAB25A98BAE00377CAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F78EAEB225A98BAE00377CAF;
+			remoteInfo = Notely;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F78EAEB325A98BAE00377CAF /* Notely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notely.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78EAEB625A98BAE00377CAF /* NotelyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotelyApp.swift; sourceTree = "<group>"; };
+		F78EAEB825A98BAE00377CAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F78EAEBA25A98BAF00377CAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F78EAEBD25A98BAF00377CAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F78EAEBF25A98BAF00377CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F78EAEC425A98BAF00377CAF /* NotelyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotelyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78EAEC825A98BAF00377CAF /* NotelyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotelyTests.swift; sourceTree = "<group>"; };
+		F78EAECA25A98BAF00377CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F78EAECF25A98BAF00377CAF /* NotelyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotelyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78EAED325A98BAF00377CAF /* NotelyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotelyUITests.swift; sourceTree = "<group>"; };
+		F78EAED525A98BAF00377CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F78EAEB025A98BAE00377CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78EAEC125A98BAF00377CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78EAECC25A98BAF00377CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F78EAEAA25A98BAE00377CAF = {
+			isa = PBXGroup;
+			children = (
+				F78EAEB525A98BAE00377CAF /* Notely */,
+				F78EAEC725A98BAF00377CAF /* NotelyTests */,
+				F78EAED225A98BAF00377CAF /* NotelyUITests */,
+				F78EAEB425A98BAE00377CAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F78EAEB425A98BAE00377CAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F78EAEB325A98BAE00377CAF /* Notely.app */,
+				F78EAEC425A98BAF00377CAF /* NotelyTests.xctest */,
+				F78EAECF25A98BAF00377CAF /* NotelyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F78EAEB525A98BAE00377CAF /* Notely */ = {
+			isa = PBXGroup;
+			children = (
+				F78EAEB625A98BAE00377CAF /* NotelyApp.swift */,
+				F78EAEB825A98BAE00377CAF /* ContentView.swift */,
+				F78EAEBA25A98BAF00377CAF /* Assets.xcassets */,
+				F78EAEBF25A98BAF00377CAF /* Info.plist */,
+				F78EAEBC25A98BAF00377CAF /* Preview Content */,
+			);
+			path = Notely;
+			sourceTree = "<group>";
+		};
+		F78EAEBC25A98BAF00377CAF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F78EAEBD25A98BAF00377CAF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F78EAEC725A98BAF00377CAF /* NotelyTests */ = {
+			isa = PBXGroup;
+			children = (
+				F78EAEC825A98BAF00377CAF /* NotelyTests.swift */,
+				F78EAECA25A98BAF00377CAF /* Info.plist */,
+			);
+			path = NotelyTests;
+			sourceTree = "<group>";
+		};
+		F78EAED225A98BAF00377CAF /* NotelyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F78EAED325A98BAF00377CAF /* NotelyUITests.swift */,
+				F78EAED525A98BAF00377CAF /* Info.plist */,
+			);
+			path = NotelyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F78EAEB225A98BAE00377CAF /* Notely */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78EAED825A98BAF00377CAF /* Build configuration list for PBXNativeTarget "Notely" */;
+			buildPhases = (
+				F78EAEAF25A98BAE00377CAF /* Sources */,
+				F78EAEB025A98BAE00377CAF /* Frameworks */,
+				F78EAEB125A98BAE00377CAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Notely;
+			productName = Notely;
+			productReference = F78EAEB325A98BAE00377CAF /* Notely.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F78EAEC325A98BAF00377CAF /* NotelyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78EAEDB25A98BAF00377CAF /* Build configuration list for PBXNativeTarget "NotelyTests" */;
+			buildPhases = (
+				F78EAEC025A98BAF00377CAF /* Sources */,
+				F78EAEC125A98BAF00377CAF /* Frameworks */,
+				F78EAEC225A98BAF00377CAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F78EAEC625A98BAF00377CAF /* PBXTargetDependency */,
+			);
+			name = NotelyTests;
+			productName = NotelyTests;
+			productReference = F78EAEC425A98BAF00377CAF /* NotelyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F78EAECE25A98BAF00377CAF /* NotelyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78EAEDE25A98BAF00377CAF /* Build configuration list for PBXNativeTarget "NotelyUITests" */;
+			buildPhases = (
+				F78EAECB25A98BAF00377CAF /* Sources */,
+				F78EAECC25A98BAF00377CAF /* Frameworks */,
+				F78EAECD25A98BAF00377CAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F78EAED125A98BAF00377CAF /* PBXTargetDependency */,
+			);
+			name = NotelyUITests;
+			productName = NotelyUITests;
+			productReference = F78EAECF25A98BAF00377CAF /* NotelyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F78EAEAB25A98BAE00377CAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					F78EAEB225A98BAE00377CAF = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					F78EAEC325A98BAF00377CAF = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = F78EAEB225A98BAE00377CAF;
+					};
+					F78EAECE25A98BAF00377CAF = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = F78EAEB225A98BAE00377CAF;
+					};
+				};
+			};
+			buildConfigurationList = F78EAEAE25A98BAE00377CAF /* Build configuration list for PBXProject "Notely" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F78EAEAA25A98BAE00377CAF;
+			productRefGroup = F78EAEB425A98BAE00377CAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F78EAEB225A98BAE00377CAF /* Notely */,
+				F78EAEC325A98BAF00377CAF /* NotelyTests */,
+				F78EAECE25A98BAF00377CAF /* NotelyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F78EAEB125A98BAE00377CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78EAEBE25A98BAF00377CAF /* Preview Assets.xcassets in Resources */,
+				F78EAEBB25A98BAF00377CAF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78EAEC225A98BAF00377CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78EAECD25A98BAF00377CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F78EAEAF25A98BAE00377CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78EAEB925A98BAE00377CAF /* ContentView.swift in Sources */,
+				F78EAEB725A98BAE00377CAF /* NotelyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78EAEC025A98BAF00377CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78EAEC925A98BAF00377CAF /* NotelyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78EAECB25A98BAF00377CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78EAED425A98BAF00377CAF /* NotelyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F78EAEC625A98BAF00377CAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F78EAEB225A98BAE00377CAF /* Notely */;
+			targetProxy = F78EAEC525A98BAF00377CAF /* PBXContainerItemProxy */;
+		};
+		F78EAED125A98BAF00377CAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F78EAEB225A98BAE00377CAF /* Notely */;
+			targetProxy = F78EAED025A98BAF00377CAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F78EAED625A98BAF00377CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F78EAED725A98BAF00377CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F78EAED925A98BAF00377CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Notely/Preview Content\"";
+				DEVELOPMENT_TEAM = ZUNYJ43SN4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Notely/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hipporasy.Notely;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F78EAEDA25A98BAF00377CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Notely/Preview Content\"";
+				DEVELOPMENT_TEAM = ZUNYJ43SN4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Notely/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hipporasy.Notely;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F78EAEDC25A98BAF00377CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUNYJ43SN4;
+				INFOPLIST_FILE = NotelyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hipporasy.NotelyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notely.app/Notely";
+			};
+			name = Debug;
+		};
+		F78EAEDD25A98BAF00377CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUNYJ43SN4;
+				INFOPLIST_FILE = NotelyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hipporasy.NotelyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notely.app/Notely";
+			};
+			name = Release;
+		};
+		F78EAEDF25A98BAF00377CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUNYJ43SN4;
+				INFOPLIST_FILE = NotelyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hipporasy.NotelyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Notely;
+			};
+			name = Debug;
+		};
+		F78EAEE025A98BAF00377CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUNYJ43SN4;
+				INFOPLIST_FILE = NotelyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hipporasy.NotelyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Notely;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F78EAEAE25A98BAE00377CAF /* Build configuration list for PBXProject "Notely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78EAED625A98BAF00377CAF /* Debug */,
+				F78EAED725A98BAF00377CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F78EAED825A98BAF00377CAF /* Build configuration list for PBXNativeTarget "Notely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78EAED925A98BAF00377CAF /* Debug */,
+				F78EAEDA25A98BAF00377CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F78EAEDB25A98BAF00377CAF /* Build configuration list for PBXNativeTarget "NotelyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78EAEDC25A98BAF00377CAF /* Debug */,
+				F78EAEDD25A98BAF00377CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F78EAEDE25A98BAF00377CAF /* Build configuration list for PBXNativeTarget "NotelyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78EAEDF25A98BAF00377CAF /* Debug */,
+				F78EAEE025A98BAF00377CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F78EAEAB25A98BAE00377CAF /* Project object */;
+}
