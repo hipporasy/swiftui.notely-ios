@@ -16,13 +16,14 @@ extension Font {
         case semiBold
         case medium
         case black
+        case bold
         
         var fontName: String {
             return "\(_fontName)-\(self.rawValue.capitalized)"
         }
     }
     
-    static func primary(type: `Type`, size: CGFloat = 15) -> Font {
+    static func primary(_ type: `Type`, size: CGFloat = 15) -> Font {
         return .custom(type.fontName, size: size)
     }
     

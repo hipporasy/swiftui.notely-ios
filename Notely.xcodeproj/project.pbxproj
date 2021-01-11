@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F743C5E025AB00D9001815C9 /* Metropolis-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F71E05F925AAED9400F5781E /* Metropolis-Bold.otf */; };
 		F78EAEB725A98BAE00377CAF /* NotelyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78EAEB625A98BAE00377CAF /* NotelyApp.swift */; };
 		F78EAEB925A98BAE00377CAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78EAEB825A98BAE00377CAF /* ContentView.swift */; };
 		F78EAEBB25A98BAF00377CAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78EAEBA25A98BAF00377CAF /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F71E05F925AAED9400F5781E /* Metropolis-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Bold.otf"; sourceTree = "<group>"; };
 		F78EAEB325A98BAE00377CAF /* Notely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notely.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78EAEB625A98BAE00377CAF /* NotelyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotelyApp.swift; sourceTree = "<group>"; };
 		F78EAEB825A98BAE00377CAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 		F78EAEE825A9949500377CAF /* Font */ = {
 			isa = PBXGroup;
 			children = (
+				F71E05F925AAED9400F5781E /* Metropolis-Bold.otf */,
 				F78EAEEA25A994A600377CAF /* Metropolis-SemiBold.otf */,
 				F78EAEEB25A994AD00377CAF /* Metropolis-Regular.otf */,
 				F78EAEE925A9949D00377CAF /* Metropolis-Black.otf */,
@@ -272,6 +275,7 @@
 				F78EAEF025A9959300377CAF /* Metropolis-Medium.otf in Resources */,
 				F78EAEBB25A98BAF00377CAF /* Assets.xcassets in Resources */,
 				F78EAEFC25A9959E00377CAF /* Metropolis-SemiBold.otf in Resources */,
+				F743C5E025AB00D9001815C9 /* Metropolis-Bold.otf in Resources */,
 				F78EAEF425A9959700377CAF /* Metropolis-Black.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
