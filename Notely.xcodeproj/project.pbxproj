@@ -18,6 +18,9 @@
 		F78EAEF425A9959700377CAF /* Metropolis-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = F78EAEE925A9949D00377CAF /* Metropolis-Black.otf */; };
 		F78EAEF825A9959A00377CAF /* Metropolis-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F78EAEEB25A994AD00377CAF /* Metropolis-Regular.otf */; };
 		F78EAEFC25A9959E00377CAF /* Metropolis-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F78EAEEA25A994A600377CAF /* Metropolis-SemiBold.otf */; };
+		F7D2D64925ACC677005AC744 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D2D64825ACC677005AC744 /* HomeView.swift */; };
+		F7D2D64F25ACCC93005AC744 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D2D64E25ACCC93005AC744 /* Note.swift */; };
+		F7D2D65A25ACCFC6005AC744 /* NoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D2D65925ACCFC6005AC744 /* NoteDetailView.swift */; };
 		F7F37B1925AAE1930066B9DB /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F37B1825AAE1930066B9DB /* Color+Extension.swift */; };
 		F7FC9D7525AAE49F00FD126C /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FC9D7425AAE49F00FD126C /* Font+Extension.swift */; };
 /* End PBXBuildFile section */
@@ -57,6 +60,9 @@
 		F78EAEEA25A994A600377CAF /* Metropolis-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-SemiBold.otf"; sourceTree = "<group>"; };
 		F78EAEEB25A994AD00377CAF /* Metropolis-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Regular.otf"; sourceTree = "<group>"; };
 		F78EAEEC25A994B800377CAF /* Metropolis-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Medium.otf"; sourceTree = "<group>"; };
+		F7D2D64825ACC677005AC744 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F7D2D64E25ACCC93005AC744 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		F7D2D65925ACCFC6005AC744 /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
 		F7F37B1825AAE1930066B9DB /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		F7FC9D7425AAE49F00FD126C /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,10 +115,13 @@
 		F78EAEB525A98BAE00377CAF /* Notely */ = {
 			isa = PBXGroup;
 			children = (
+				F7D2D64D25ACCC8C005AC744 /* Model */,
 				F7F37B1725AAE1880066B9DB /* Extension */,
 				F78EAEE825A9949500377CAF /* Font */,
 				F78EAEB625A98BAE00377CAF /* NotelyApp.swift */,
 				F78EAEB825A98BAE00377CAF /* ContentView.swift */,
+				F7D2D64825ACC677005AC744 /* HomeView.swift */,
+				F7D2D65925ACCFC6005AC744 /* NoteDetailView.swift */,
 				F78EAEBA25A98BAF00377CAF /* Assets.xcassets */,
 				F78EAEBF25A98BAF00377CAF /* Info.plist */,
 				F78EAEBC25A98BAF00377CAF /* Preview Content */,
@@ -156,6 +165,14 @@
 				F78EAEEC25A994B800377CAF /* Metropolis-Medium.otf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		F7D2D64D25ACCC8C005AC744 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7D2D64E25ACCC93005AC744 /* Note.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		F7F37B1725AAE1880066B9DB /* Extension */ = {
@@ -304,7 +321,10 @@
 				F78EAEB925A98BAE00377CAF /* ContentView.swift in Sources */,
 				F7F37B1925AAE1930066B9DB /* Color+Extension.swift in Sources */,
 				F7FC9D7525AAE49F00FD126C /* Font+Extension.swift in Sources */,
+				F7D2D64925ACC677005AC744 /* HomeView.swift in Sources */,
 				F78EAEB725A98BAE00377CAF /* NotelyApp.swift in Sources */,
+				F7D2D64F25ACCC93005AC744 /* Note.swift in Sources */,
+				F7D2D65A25ACCFC6005AC744 /* NoteDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
